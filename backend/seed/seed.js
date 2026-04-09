@@ -13,7 +13,7 @@ const categoriesData = [
   { name: 'Hoodies',     slug: 'hoodies',     image: 'https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&fit=crop', description: 'Premium hoodies and sweatshirts' },
   { name: 'T-Shirts',    slug: 't-shirts',    image: 'https://images.pexels.com/photos/1656684/pexels-photo-1656684.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&fit=crop', description: 'Essential tees for every wardrobe' },
   { name: 'Pants',       slug: 'pants',       image: 'https://images.pexels.com/photos/1598507/pexels-photo-1598507.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&fit=crop', description: 'Cargo joggers and street pants' },
-  { name: 'Accessories', slug: 'accessories', image: 'https://images.pexels.com/photos/1184593/pexels-photo-1184593.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&fit=crop', description: 'Caps, bags, and accessories' },
+  { name: 'Accessories', slug: 'accessories', image: 'https://images.pexels.com/photos/2986445/pexels-photo-2986445.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&fit=crop', description: 'Caps, bags, and accessories' },
   { name: 'Shoes',       slug: 'shoes',       image: 'https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&fit=crop', description: 'Sneakers and street footwear' },
   { name: 'Jackets',     slug: 'jackets',     image: 'https://images.pexels.com/photos/1124468/pexels-photo-1124468.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&fit=crop', description: 'Bombers, coaches, and outerwear' },
 ]
@@ -90,9 +90,9 @@ const buildProducts = (catMap) => [
     name: 'Chain Logo Cap', category: catMap['Accessories'],
     price: 34.99, originalPrice: 44.99,
     description: 'Embroidered chain-link logo, structured 6-panel design, adjustable snapback closure, premium cotton.',
-    image:  'https://images.pexels.com/photos/1184593/pexels-photo-1184593.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&fit=crop',
+    image:  'https://images.pexels.com/photos/2986445/pexels-photo-2986445.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&fit=crop',
     images: [
-      'https://images.pexels.com/photos/1184593/pexels-photo-1184593.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&fit=crop',
+      'https://images.pexels.com/photos/2986445/pexels-photo-2986445.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&fit=crop',
       'https://images.pexels.com/photos/1478985/pexels-photo-1478985.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&fit=crop',
     ],
     sizes: ['One Size'],
@@ -125,19 +125,7 @@ const buildProducts = (catMap) => [
     colors: [{ hex: '#1a1a1a', name: 'Black' }, { hex: '#ffffff', name: 'White' }],
     badge: 'NEW', stock: 180, featured: false, trending: false,
   },
-  {
-    name: 'Tactical Cargo Shorts', category: catMap['Pants'],
-    price: 59.99, originalPrice: 74.99,
-    description: '8 functional pockets, ripstop fabric, adjustable waistband, relaxed fit. Built for skate sessions and street life.',
-    image:  'https://images.pexels.com/photos/3782148/pexels-photo-3782148.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&fit=crop',
-    images: [
-      'https://images.pexels.com/photos/3782148/pexels-photo-3782148.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&fit=crop',
-      'https://images.pexels.com/photos/1598507/pexels-photo-1598507.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&fit=crop',
-    ],
-    sizes: ['XS','S','M','L','XL','XXL'],
-    colors: [{ hex: '#1a1a1a', name: 'Black' }, { hex: '#4b5320', name: 'Olive' }],
-    badge: null, stock: 60, featured: false, trending: false,
-  },
+  
   {
     name: 'High-Top Vulcan', category: catMap['Shoes'],
     price: 109.99, originalPrice: 139.99,

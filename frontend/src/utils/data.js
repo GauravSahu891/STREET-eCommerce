@@ -105,7 +105,6 @@ export const products = [
     images: [
       px(1598507),            // Cargo pants front
       px(1598506),            // Cargo pants side
-      px(3782148),            // Jogger pants detail
       px(2220316),            // Pants pockets
     ],
     description:
@@ -153,9 +152,9 @@ export const products = [
     rating: 4.5,
     reviews: 521,
     badge: "HOT",
-    image: px(1184593),      // Snapback cap
+    image: px(2986445),      // Snapback cap
     images: [
-      px(1184593),            // Cap front
+      px(2986445),            // Cap front
       px(1478985),            // Cap side view
       px(2220316),            // Cap worn
       px(1070536),            // Cap close-up
@@ -231,9 +230,7 @@ export const products = [
     rating: 4.5,
     reviews: 267,
     badge: null,
-    image: px(3782148),      // Cargo shorts
     images: [
-      px(3782148),            // Shorts front
       px(1598507),            // Cargo detail
       px(2220316),            // Pocket detail
       px(1598506),            // Side view
@@ -353,7 +350,7 @@ export const categories = [
   {
     id: 4,
     name: "Accessories",
-    image: pxSq(1184593),    // Snapback cap
+    image: pxSq(2986445),    // Snapback cap
     count: 42,
     slug: "accessories",
   },
